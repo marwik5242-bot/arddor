@@ -1,1 +1,25 @@
-
+{
+  "schemaVersion": 1,
+  "id": "arddor",
+  "version": "1.0.0",
+  "name": "Ardor Client",
+  "description": "Minecraft client with advanced combat modules",
+  "authors": ["marwik5242"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.white.Client"
+    ]
+  },
+  "mixins": [
+    "arddor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
