@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ag13_menu_studio",
+  "version": "${version}",
+  "name": "13ag Menu Studio",
+  "description": "Dark atmospheric main menu for Minecraft: ghost eyes, stars, forest silhouette, in-game editor.",
+  "authors": ["13ag"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.thirteenag.menustudio.MenuStudioClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
